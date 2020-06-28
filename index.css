@@ -1,3 +1,9 @@
+body{
+    background-image:linear-gradient(red,green,yellow);
+}
+
+
+
 header{
     display: grid;
     height: 500px;
@@ -13,8 +19,16 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 225px;
     text-shadow: gray 1px 1px 1px;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
+.intro{
+    border-radius: 1rem;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    margin: 2rem;
+    padding: 2rem;
+}  
+
 .card{
     border-radius: 1rem;
     background-color: rgba(0,0,0,0.4);
@@ -24,3 +38,18 @@ header{
     border-radius: 1rem;
 
 }
+footer{
+    background-color: black;
+    color: white;
+    z-index: 1;
+    margin-top: 1%;
+    padding: 5%;
+    text-align: center;
+  }
+  footer table{
+      width: 100%;
+  }
+  footer table tr th{
+    width: 33%;
+    text-align: center;
+  }
