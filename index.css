@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(red,green,yellow);
+    background-image:linear-gradient(green,yellow);
 }
 
 
@@ -9,17 +9,19 @@ header{
     height: 500px;
     width: 100%;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('93472.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('93472.jpg');
     background-size: cover;
     text-align: center;
     vertical-align: middle;
     color: white;
-    font-size: 5000rem;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 225px;
     text-shadow: gray 1px 1px 1px;
     margin-bottom: 5%;
+}
+header h1{
+    font-size: 50000 vh;
 }
 .intro{
     border-radius: 1rem;
@@ -27,6 +29,7 @@ header{
     color: white;
     margin: 2rem;
     padding: 2rem;
+    text-align: justify;
 }  
 
 .card{
@@ -52,4 +55,9 @@ footer{
   footer table tr th{
     width: 33%;
     text-align: center;
+  }
+  .vr{
+      border-left: white 2px solid;
+      border-right: white 2px solid;
+
   }
