@@ -10,7 +10,7 @@ header{
     height: 500px;
     width: 100%;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('93472.jpg');
+    background-image: linear-gradient(rgba(0,0, 0, 0.1),rgba(0,0,0,0.1)),url('93472.jpg');
     background-size: cover;
     justify-content: center;
     color: white;
@@ -21,20 +21,18 @@ header{
     align-items: center;
     flex-direction: column;
 }
-header h1{
-    font-size: 400%;
-    font-weight: bolder;
+header img{
+    width: 50%;
+    height: auto;
 }
-header p{
-    font-size: 175%;
-}
+
 .dev{
     display: flex;
     color: white;
     background-color: rgba(0,0,0,0.4);
     text-align: center;
     border-radius: 1rem;
-    margin: 0px 5.5%;
+    margin: 0px 8.8%;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -68,13 +66,11 @@ header p{
 #Members{
     background-color: rgba(0,0,0,0.4);
     color: white;
-    padding: 0.5rem;
+    padding: 2rem;
     margin: 1rem;
     border-radius: 1rem;
 }
-#Members h2{
-    text-align: center;
-}
+
 #Members ol li{
     font-size: larger;
 }
@@ -89,11 +85,56 @@ footer{
   footer table{
       width: 100%;
   }
-  footer table tr th{
+  footer table tr td{
     width: 33%;
     text-align: center;
+    vertical-align: middle;
   }
   .vr{
-      border-left: white 2px solid;
-      border-right: white 2px solid;
+      border-left: white 1px solid;
+      border-right: white 1px solid;
   }
+  @media(max-width:800px){
+    header img{
+        width: 95%;
+        height: auto;
+    }
+    header{
+        display: flex;
+        height: 500px;
+        width: 100%;
+        background-attachment: fixed;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0,0,0,0.1)),url('93473.jpg');
+        background-size: cover;
+        justify-content: center;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: gray 1px 1px 1px;
+        margin-bottom: 5%;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #Members h2{
+        text-align: center;
+    }
+    #Members{
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+        padding: 0.5rem;
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+    .dev{
+        display: flex;
+        color: white;
+        background-color: rgba(0,0,0,0.4);
+        text-align: center;
+        border-radius: 1rem;
+        margin: 0px 4%;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    
+}
