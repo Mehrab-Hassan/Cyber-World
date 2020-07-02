@@ -1,11 +1,191 @@
-
 body{
     background-image:radial-gradient(green,yellow);
     text-shadow: gray 1px 1px 1px;
 }
 
+.navbar-toggler{position:relative;
+    text-decoration: none;
+    color: white;
+    border: 4px solid transparent;
+    border-radius: 6px;
+   background-image:  linear-gradient(#42455a,#42455a),
+                   radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin:border-box;
+    background-clip: content-box,border-box;
+    right: 0;
+}
+
+/*footer button style*/
+
+.btn-facebook{
+    position: relative;
+    z-index: 1;
+display: inline-block;
+padding: 20px 40px;
+font-size: 1.4rem;
+box-sizing: border-box;
+border: 4px solid transparent;
+background-color: black;
+border-image: linear-gradient(to right, blue, transparent);
+border-image-slice: 1;
+color: blue;
+transition: all 0.4s ease-in-out;
+}
+.btn-facebook:hover{
+    background-image: linear-gradient(to right, blue, transparent);
+    color: red;
+border-right-style: none;
+}
 
 
+    .btn-face{
+position: relative;
+z-index: 1;
+display: inline-block;
+padding: 10px 20px;
+font-size: 1.4rem;
+box-sizing: border-box;
+border: 10px solid transparent;
+background-color: silver;
+border-image: linear-gradient(to top right, blue, #87bdd8, blue);
+border-image-slice: 1;
+color: blue;
+transition: all 0.4s ease-in-out;
+border-radius: 37px;
+}
+.btn-face:hover{
+    background-image: linear-gradient(to top right, blue, #87bdd8, blue );
+    color: black;
+
+}
+
+.btn-twitter{
+    color: black;
+    position: relative;
+z-index: 1;
+display: inline-block;
+padding: 10px 20px;
+font-size: 1.4rem;
+box-sizing: border-box;
+background-color: skyblue;
+transition: all 0.4s ease-in-out;
+border-radius: 50%;
+}
+.btn-twitter:hover{
+color: white;
+background-color: skyblue;
+}
+.btn-youtube{
+            color: white;
+            position: relative;
+     z-index: 1;
+     display: inline-block;
+     padding: 10px 20px;
+    font-size: 1.4rem;
+  box-sizing: border-box;
+background-color: red;
+
+
+transition: all 0.4s ease-in-out;
+border-radius: 30px;
+}
+.btn-youtube:hover{
+    color: black;
+    background-color:red; 
+}
+
+.member{
+     font-size: 4rem;
+     text-transform: uppercase;
+     color: #c00d11;
+     -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+     transform:         skew(-5deg, -5deg) rotate(5deg);
+      -webkit-transform-origin: center center;
+       transform-origin:        center center;
+       text-shadow: 1px 1px #d10e31,
+                    2px 2px #d10e31,
+                    3px 3px #d10e31,
+                    4px 4px #d10e31,
+                    5px 5px #d10e31,
+                    6px 6px #d10e31,
+                    7px 7px #d10e31,
+                    8px 8px #890920,
+                    9px 9px #890920,
+                    10px 10px black,
+                    11px 11px 15px rgba(0,0,0,0.9);
+}
+
+.card-img-top{
+
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+            clip-path:polygon(0 0, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.shadow-intro{
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #00b3b4 ;
+    text-shadow: 3px 3px 0px black, 
+                 8px 8px 0px rgba(0,0,0,0.3);
+}
+
+.card-title-3d{
+    color: orange;
+}
+.card-title-3n{
+     position: relative;
+    display: inline-block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0px black, 
+                 8px 8px 0px rgba(0,0,0,0.3);
+}
+#developer{
+     font-size: 2rem;
+     text-transform: uppercase;
+     color: #41b90b;
+     -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+     transform:         skew(-5deg, -5deg) rotate(5deg);
+      -webkit-transform-origin: center center;
+       transform-origin:        center center;
+       text-shadow: 1px 1px lightgreen,
+                    2px 2px lightgreen,
+                    3px 3px lightgreen,
+                    4px 4px black,
+                    5px 5px rgba(0,0,0,0.9);
+}
+
+.btn-contact{
+     display: inline-block;
+  color: blue;
+  text-align: center;
+    text-decoration: none;
+  position: relative;
+    z-index: 1;
+font-size: 1.4rem;
+box-sizing: border-box;
+border: 4px solid transparent;
+background-color: lightgreen;
+transition: all 0.4s ease-in-out;
+border-radius: 10px;
+}
+.btn-contact:hover{
+background-color: darkgreen;
+color: white;
+}
+
+.nav-link-home{
+    color:red;
+}
+.nav-link-deve{
+    color: #00b3b4;
+}
+.nav-link-member{
+    color: lightgreen;
+}
 header{
     display: flex;
     height: 500px;
@@ -41,7 +221,7 @@ header img{
 .intro{
     border-radius: 1rem;
     background-color: rgba(0,0,0,0.4);
-    color: white;
+    color: white ;
     margin: 2rem;
     padding: 2rem;
     text-align: justify;
